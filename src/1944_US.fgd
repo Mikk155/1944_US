@@ -2,3 +2,18 @@
     Forge Game Data file for 1944_US
 */
 
+@PointClass iconsprite( "sprites/vhe-iconsprites/env_sentence.spr" ) = env_ambience : "Ambient Sound Config"
+[
+    filename(sound) : "WAV Name"
+    duration(float) : "WAV Duration"
+]
+
+@PointClass iconsprite( "sprites/vhe-iconsprites/ambient_generic.spr" ) = env_ambience_position : "Random Ambient Position"
+[
+    spawnflags(Flags) =
+    [
+        1 : "Start Off" : 0
+    ]
+
+    targetname(target_source) : "Targetname"
+]
