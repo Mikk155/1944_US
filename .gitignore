@@ -1,0 +1,8 @@
+# Disallow the crap
+**1944_us_test.*
+steam_autocloud.vdf
+
+# Allow files
+!maps/1944_us_test.bsp
+!src/1944_us_test.map
+!src/1944_us_test.rmf
