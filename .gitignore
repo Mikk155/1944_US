@@ -6,3 +6,5 @@ steam_autocloud.vdf
 !maps/1944_us_test.bsp
 !src/1944_us_test.map
 !src/1944_us_test.rmf
+
+src/stuff/*
