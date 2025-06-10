@@ -262,11 +262,6 @@ class env_ambience_position : ScriptBaseEntity
     {
         switch( useType )
         {
-            case USE_TOGGLE:
-            {
-                active = !active;
-                break;
-            }
             case USE_ON:
             {
                 active = true;
@@ -277,9 +272,11 @@ class env_ambience_position : ScriptBaseEntity
                 active = false;
                 break;
             }
+            case USE_TOGGLE:
             default:
             {
-                return;
+                active = !active;
+                break;
             }
         }
 #if SERVER
